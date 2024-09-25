@@ -1,0 +1,61 @@
+.contact{
+    padding-top: 35px;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 19px;
+    display: flex;
+    gap: 60px;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+.oneCol {
+    max-width: 351px;
+}
+.oneCol img{
+margin-bottom: 25px;
+}
+.oneCol p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #22222280;
+margin: 0;
+}
+.twoCol .title4{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #222222;
+    margin-bottom: 20px;
+}
+.twoCol p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222222;
+
+}
+.twoCol .icons div{
+    width: 48px;
+    height: 48px;
+    background-color: #025595;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.twoCol .icons{
+    display: flex;
+    gap: 16px;
+}
+ 
+@media(max-width:1263px){
+    .contact{
+        flex-direction: column;
+        gap: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 0;
+    
+    }
+}

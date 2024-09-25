@@ -1,0 +1,38 @@
+.cardTwo{
+    width: 380px;
+    height: 255px;
+    padding: 30px 40px 80px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 15px;
+    gap: 10px;
+}
+.cardTwo img {
+    width: 42px;
+}
+.title2{
+font-weight: 600;
+font-size: 22px;
+line-height: 26px;
+color:  #222222;
+margin: 0;
+}
+.text2{
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+color: #22222280;
+margin: 0;
+}
+@media (max-width:992px){
+    .cardTwo{
+        padding: 15px 17px 28px 17px;
+        height: 218px;
+        width: 300px;
+    }
+}
+@media (max-width:340px){
+    .cardTwo{
+        width: 100%;
+    }}

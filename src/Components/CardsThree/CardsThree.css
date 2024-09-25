@@ -1,0 +1,22 @@
+.cardsthree{
+    padding-left: 70px;
+    padding-right: 70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 25px;
+    row-gap: 30px;
+}
+@media (max-width:1293px){
+    .cardsthree{
+        grid-template-columns: 1fr 1fr;
+
+    }
+}
+@media (max-width:893px){
+    .cardsthree{
+        grid-template-columns:  1fr;
+        padding-left: 20px;
+        padding-right: 20px;
+    
+    }
+}

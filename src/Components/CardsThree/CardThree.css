@@ -1,0 +1,56 @@
+.CardThree{
+    width: 382px;
+    height: 447px;
+    border-radius: 10px;
+    background-color: #FFFFFF26;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 0px #0000001A;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.price {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #025595;
+    margin: 0;
+}
+.text3{
+    width: 180px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 29px;
+margin: 0;
+}
+.location{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0;
+}
+.location img {
+margin-right: 10px;
+}
+@media (max-width: 450px){
+    .CardThree{
+        width: 100%;
+        padding: 16px;
+
+    }
+    .CardThree .img{
+        width: 100%;
+    }
+.location {
+    font-size: 12px;
+}
+.text3 {
+    width: 100%;
+}
+.text3 p {
+    font-size: 16px;
+}
+.text3 .price{
+    font-size: 18px;
+}
+}

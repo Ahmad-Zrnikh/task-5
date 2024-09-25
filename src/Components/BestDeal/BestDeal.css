@@ -1,0 +1,51 @@
+.bestdeal{
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 94px;
+    overflow: hidden;
+}
+.buttons{
+width: fit-content;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+display: flex;
+gap: 45px;
+padding-bottom: 56px;
+}
+.buttons div{
+    cursor: pointer;
+}
+.buttons .active2{
+    color: #025595;
+font-weight: 600;
+font-size: 18px;
+line-height: 21px;
+    border-bottom: 2px solid #025595;
+    padding-bottom: 15px;
+}
+.images{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+@media(max-width:1336px){
+    .images{
+        flex-wrap: wrap;
+    }
+}
+@media(max-width:992px){
+    .bestdeal{
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 64px;
+
+    }
+    .images img{
+        width: 100%;
+    }
+.buttons{
+    flex-direction: column;
+}
+    
+}

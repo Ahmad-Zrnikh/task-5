@@ -1,0 +1,35 @@
+.cardOne{
+    width: 213px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.cardOne .icon{
+     width: 60px;
+     background-color: rgb(2, 85, 149 , 5%);
+     height: 60px;
+    border-radius: 50%;
+    text-align: center; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cardOne .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.cardOne .text .one {
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #222222;
+
+}
+.cardOne .text .two{
+    font-weight: 400;
+    font-size: 16px;
+line-height: 24px;
+color: rgb(34, 34, 34 , 50%);
+
+}

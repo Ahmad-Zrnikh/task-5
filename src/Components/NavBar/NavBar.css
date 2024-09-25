@@ -1,0 +1,141 @@
+.navBar {
+padding: 17px 70px;
+display: flex;
+justify-content: space-between;
+background-color: #EFF8FF;
+align-items: center;
+height: 90px;
+}
+.logo {
+    width: 68px;
+}
+.logo .secondimage{
+    display: none;
+}
+.links {
+gap: 30px;
+        list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+.links a {
+     text-decoration: none;
+    color: #222222;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    display: flex;
+justify-content: center;
+align-items: center;
+}
+.loginBtn{
+    width: 135px;
+    height: 38px;
+border: none;
+border-radius: 6px;
+background: none;
+background-color: var(--main-color);
+color: white;
+text-align: center;
+font-weight: 400;
+font-size: 14px;
+}
+.burger{
+    border: none;
+    background: none;
+    display: none;
+}
+.menu {
+display: flex;
+flex-direction: column;
+position: absolute;
+top: 90px;
+left: -100%;
+width: 100%;
+align-items: center;
+gap: 61px;
+padding-top: 30px;
+transition: 0.4s;
+background-color: white;
+padding-bottom: 70px;
+z-index: 5;
+}
+.open {
+    left: 0%;
+    background-color: white;
+}
+.links-menu {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+flex-direction: column;
+gap: 32px;
+}
+.links-menu a {
+    text-decoration: none;
+    width: 100%;
+}
+.links-menu a li{
+    text-decoration: none;
+    width: 100%;
+    height: 65px;
+    color: #222222;
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: 24px;
+    list-style: none;
+   padding: 24px 92px 24px 20px;
+   border: 1px solid #000000;
+}
+.loginBtn-menu {
+    width: 135px;
+    height: 38px;
+border: none;
+border-radius: 6px;
+background: none;
+background-color: var(--main-color);
+color: white;
+text-align: center;
+font-weight: 400;
+font-size: 14px;
+}
+.links-menu .active {
+    background-color: #D7E6EA;
+    border-radius: 5px;
+    border: none;
+}
+@media (max-width: 992px){
+    .navBar {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .loginBtn{
+        display: none;
+    }
+ .links {
+    display: none;
+ }
+ .burger{
+display: block;
+}
+}
+@media (min-width: 993px){
+    .menu{
+        display: none;
+    }
+    .navBar {
+        background-color: #EFF8FF;
+    }
+}
+@media(max-width:500px){
+    .logo .secondimage {
+        display: block;
+    }
+    .logo .firstimage{
+        display: none;
+    }
+
+}

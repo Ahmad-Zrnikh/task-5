@@ -1,0 +1,35 @@
+.title{
+    padding-left: 70px;
+    padding-bottom: 56px;
+    padding-top: 94px;
+}
+.bigTitle{
+    font-weight: 700;
+    font-size: 39px;
+    line-height: 47px;
+    color:  #222222;
+    margin: 0;
+}
+.smallTitle{
+    color: #22222280;
+    font-weight: 400;
+    font-size: 15px;
+    margin: 0;
+    line-height: 26px;
+}
+@media (max-width:992px){
+    .title{
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 64px;
+        padding-bottom: 42px;
+
+    }
+    .bigTitle{
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .smallTitle{
+        line-height: 22px;
+    }
+}

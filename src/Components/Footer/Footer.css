@@ -1,0 +1,33 @@
+.footer{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.hr{
+    width: 100%;
+    border-top: 1px solid rgb(34, 34, 34 , 10%);
+
+}
+.text5{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+.text5 .firstText , .text5 .secondText{
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+}
+.text5 .secondText{
+    display: flex;
+    gap: 29px;
+}
+@media (max-width:992px){
+    .footer{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+}

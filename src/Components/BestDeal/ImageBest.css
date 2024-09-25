@@ -1,0 +1,37 @@
+.imagebest{
+    /* width: 387px;
+    height: 300px; */
+    position: relative;
+}
+.btnOne{
+    position: absolute;
+    border: none;
+    background: none;
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 14px;
+   text-align: center;
+   background-color: #22222266;
+   border: 1px solid #FFFFFF;
+   color: #FFFFFF;
+   border-radius: 5px;
+   padding: 6px 12px 5px 12px;
+   top: 14px;
+   left: 14px;
+}
+.btnTwo{
+    position: absolute;
+    border: none;
+    background: none;
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 14px;
+   text-align: center;
+   background-color: #22222266;
+   border: 1px solid #FFFFFF;
+   color: #FFFFFF;
+   border-radius: 5px;
+   padding: 6px 7px 5px 6px;
+   top: 14px;
+   left: 100px;
+}

@@ -1,0 +1,26 @@
+.cardsTow{
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 94px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.special {
+    background-color: #025595 !important;
+    ;
+    border-radius: 15px;
+}
+.special p {
+    color: white !important;
+
+}
+@media (max-width: 1220px){
+    .cardsTow{
+        flex-direction: column;
+        padding-left: 20px;
+        padding-right: 20px;
+    gap: 20px;
+    }
+
+}
